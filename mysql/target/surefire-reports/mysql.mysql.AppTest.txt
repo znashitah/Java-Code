@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: mysql.mysql.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in mysql.mysql.AppTest
+mysql.mysql.AppTest.shouldAnswerWithTrue  Time elapsed: 0.05 s  <<< ERROR!
+java.sql.SQLException: No suitable driver found for jdbc:myhost://localhost/business
+	at mysql.mysql.AppTest.shouldAnswerWithTrue(AppTest.java:22)
+
